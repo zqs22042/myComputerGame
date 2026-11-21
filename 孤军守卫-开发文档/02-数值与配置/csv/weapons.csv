@@ -1,0 +1,4 @@
+weapon_id,name,cost_gold,damage,pellets,fire_interval,range,pierce,note
+W01,速射机枪,120,16,1,0.25,0.55,1,稳定单体输出，覆盖路径中段
+W02,穿甲炮,260,90,1,1.10,0.90,3,高穿透，对 Boss 与精英高效
+W03,散射枪,180,11,3,0.40,0.45,1,扇形近距离覆盖，守加宽段

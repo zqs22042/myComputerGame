@@ -1,0 +1,1451 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "config",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "generatedAt": "2026-11-21T03:46:21.421Z",
+    "counts": {
+      "endless_config": 15,
+      "monsters": 6,
+      "map_paths": 6,
+      "player_zone": 1,
+      "weapons": 3,
+      "char_weapons": 16,
+      "upgrade_equipment": 12,
+      "upgrade_skill": 9,
+      "upgrade_ultimate": 9,
+      "skills": 2,
+      "feedback_config": 13,
+      "level_multiplier": 15,
+      "boss_phase_events": 18,
+      "boss_skill_timeline": 2,
+      "boss_growth": 5,
+      "meta_progression": 17,
+      "economy_sources": 7,
+      "economy_loop": 4
+    },
+    "tables": {
+      "endless_config": [
+        {
+          "param_name": "hp_step_waves",
+          "default_value": 5,
+          "unit": "wave",
+          "description": "血量台阶宽度：每N波提升一档"
+        },
+        {
+          "param_name": "hp_step_growth",
+          "default_value": 0.35,
+          "unit": "per_step",
+          "description": "血量每档乘数增量：HP×(1+该值)^档位（0.35=每档×1.35）"
+        },
+        {
+          "param_name": "boss_wave_step_extra",
+          "default_value": 1,
+          "unit": "step",
+          "description": "Boss波在普通档位基础上额外跳档数"
+        },
+        {
+          "param_name": "wave_interval",
+          "default_value": 2,
+          "unit": "sec",
+          "description": "波次间隔秒数"
+        },
+        {
+          "param_name": "elite_every_waves",
+          "default_value": 5,
+          "unit": "wave",
+          "description": "每N波一次精英波"
+        },
+        {
+          "param_name": "boss_every_waves",
+          "default_value": 10,
+          "unit": "wave",
+          "description": "每N波一次Boss"
+        },
+        {
+          "param_name": "gold_growth_rate",
+          "default_value": 0.003,
+          "unit": "per_sec",
+          "description": "金币随时间的增长系数（保留字段）"
+        },
+        {
+          "param_name": "base_spawn_count",
+          "default_value": 6,
+          "unit": "count",
+          "description": "第1波怪物数量"
+        },
+        {
+          "param_name": "spawn_count_growth",
+          "default_value": 1.1,
+          "unit": "per_wave",
+          "description": "每波怪物数量增长系数"
+        },
+        {
+          "param_name": "boss_damage_cycle_bonus",
+          "default_value": 0.1,
+          "unit": "per_cycle",
+          "description": "Boss每循环额外伤害加成"
+        },
+        {
+          "param_name": "soft_growth_reserve",
+          "default_value": 1000,
+          "unit": "gold",
+          "description": "满级后保留用于正常购物的金币"
+        },
+        {
+          "param_name": "soft_dmg_per_gold",
+          "default_value": 0.0006,
+          "unit": "per_gold",
+          "description": "溢出金币转伤害的初始每金币加成"
+        },
+        {
+          "param_name": "soft_dmg_cap",
+          "default_value": 3,
+          "unit": "ratio",
+          "description": "软成长伤害加成上限（3.0=+300%）"
+        },
+        {
+          "param_name": "soft_aspd_per_gold",
+          "default_value": 0.0003,
+          "unit": "per_gold",
+          "description": "溢出金币转射速的初始每金币加成"
+        },
+        {
+          "param_name": "soft_aspd_cap",
+          "default_value": 0.6,
+          "unit": "ratio",
+          "description": "软成长射速加成上限（0.6=+60%）"
+        }
+      ],
+      "monsters": [
+        {
+          "monster_id": "M01",
+          "name": "快速小怪",
+          "hp_base": 30,
+          "speed": 120,
+          "armor": 0,
+          "gold_drop": 3,
+          "exp_drop": 2,
+          "spawn_weight": 40,
+          "special": "none",
+          "leak_damage": 2
+        },
+        {
+          "monster_id": "M02",
+          "name": "装甲怪",
+          "hp_base": 70,
+          "speed": 70,
+          "armor": 10,
+          "gold_drop": 8,
+          "exp_drop": 5,
+          "spawn_weight": 25,
+          "special": "armor",
+          "leak_damage": 4
+        },
+        {
+          "monster_id": "M03",
+          "name": "飞行怪",
+          "hp_base": 45,
+          "speed": 100,
+          "armor": 0,
+          "gold_drop": 6,
+          "exp_drop": 4,
+          "spawn_weight": 20,
+          "special": "fly",
+          "leak_damage": 3
+        },
+        {
+          "monster_id": "M04",
+          "name": "自爆怪",
+          "hp_base": 60,
+          "speed": 90,
+          "armor": 0,
+          "gold_drop": 7,
+          "exp_drop": 4,
+          "spawn_weight": 10,
+          "special": "explode",
+          "leak_damage": 0
+        },
+        {
+          "monster_id": "M05",
+          "name": "精英盾卫",
+          "hp_base": 60,
+          "speed": 50,
+          "armor": 10,
+          "gold_drop": 40,
+          "exp_drop": 25,
+          "spawn_weight": 5,
+          "special": "elite_armor",
+          "leak_damage": 8
+        },
+        {
+          "monster_id": "M06",
+          "name": "Boss碎骨者",
+          "hp_base": 1800,
+          "speed": 40,
+          "armor": 10,
+          "gold_drop": 200,
+          "exp_drop": 120,
+          "spawn_weight": 0,
+          "special": "boss",
+          "leak_damage": 0
+        }
+      ],
+      "map_paths": [
+        {
+          "node_index": 0,
+          "x": 0.5,
+          "y": 1,
+          "node_type": "spawn"
+        },
+        {
+          "node_index": 1,
+          "x": 0.5,
+          "y": 0.9,
+          "node_type": "path"
+        },
+        {
+          "node_index": 2,
+          "x": 0.5,
+          "y": 0.8,
+          "node_type": "path"
+        },
+        {
+          "node_index": 3,
+          "x": 0.5,
+          "y": 0.68,
+          "node_type": "path"
+        },
+        {
+          "node_index": 4,
+          "x": 0.5,
+          "y": 0.5,
+          "node_type": "path"
+        },
+        {
+          "node_index": 5,
+          "x": 0.5,
+          "y": 0.24,
+          "node_type": "core"
+        }
+      ],
+      "player_zone": [
+        {
+          "zone_id": "Z01",
+          "x_min": 0.24,
+          "x_max": 0.76,
+          "y_min": 0.08,
+          "y_max": 0.18,
+          "note": "人物活动区（站位区下部缩小矩形，角色朝上射击）"
+        }
+      ],
+      "weapons": [
+        {
+          "weapon_id": "W01",
+          "name": "速射机枪",
+          "cost_gold": 120,
+          "damage": 16,
+          "pellets": 1,
+          "fire_interval": 0.25,
+          "range": 0.55,
+          "pierce": 1,
+          "note": "稳定单体输出，覆盖路径中段"
+        },
+        {
+          "weapon_id": "W02",
+          "name": "穿甲炮",
+          "cost_gold": 260,
+          "damage": 90,
+          "pellets": 1,
+          "fire_interval": 1.1,
+          "range": 0.9,
+          "pierce": 3,
+          "note": "高穿透，对 Boss 与精英高效"
+        },
+        {
+          "weapon_id": "W03",
+          "name": "散射枪",
+          "cost_gold": 180,
+          "damage": 11,
+          "pellets": 3,
+          "fire_interval": 0.4,
+          "range": 0.45,
+          "pierce": 1,
+          "note": "扇形近距离覆盖，守加宽段"
+        }
+      ],
+      "char_weapons": [
+        {
+          "weapon_id": "RW01",
+          "name": "基础步枪",
+          "bullet_type": "circle",
+          "unlock_cost_gold": 0,
+          "level": 1,
+          "fire_interval": 1,
+          "damage": 10,
+          "pellets": 1,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 420,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 50,
+          "note": "初始解锁；实心圆弹直线飞行无穿透"
+        },
+        {
+          "weapon_id": "RW01",
+          "name": "基础步枪",
+          "bullet_type": "circle",
+          "unlock_cost_gold": 0,
+          "level": 2,
+          "fire_interval": 0.8,
+          "damage": 12,
+          "pellets": 3,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 460,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 120,
+          "note": "子弹飞行速度提升、枪身微光"
+        },
+        {
+          "weapon_id": "RW01",
+          "name": "基础步枪",
+          "bullet_type": "circle",
+          "unlock_cost_gold": 0,
+          "level": 3,
+          "fire_interval": 0.6,
+          "damage": 15,
+          "pellets": 5,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 500,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 250,
+          "note": "同上"
+        },
+        {
+          "weapon_id": "RW01",
+          "name": "基础步枪",
+          "bullet_type": "circle",
+          "unlock_cost_gold": 0,
+          "level": 4,
+          "fire_interval": 0.4,
+          "damage": 18,
+          "pellets": 7,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 560,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 0,
+          "note": "满级MAX"
+        },
+        {
+          "weapon_id": "RW02",
+          "name": "霰弹枪",
+          "bullet_type": "spread",
+          "unlock_cost_gold": 150,
+          "level": 1,
+          "fire_interval": 1.2,
+          "damage": 14,
+          "pellets": 1,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 380,
+          "spread_angle": 15,
+          "upgrade_cost_gold": 50,
+          "note": "扇形散射小圆弹；距离越远伤害衰减（最远点50%）"
+        },
+        {
+          "weapon_id": "RW02",
+          "name": "霰弹枪",
+          "bullet_type": "spread",
+          "unlock_cost_gold": 150,
+          "level": 2,
+          "fire_interval": 1,
+          "damage": 16,
+          "pellets": 3,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 410,
+          "spread_angle": 22,
+          "upgrade_cost_gold": 120,
+          "note": "散射角度变大、弹丸集中度提升"
+        },
+        {
+          "weapon_id": "RW02",
+          "name": "霰弹枪",
+          "bullet_type": "spread",
+          "unlock_cost_gold": 150,
+          "level": 3,
+          "fire_interval": 0.8,
+          "damage": 19,
+          "pellets": 5,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 440,
+          "spread_angle": 28,
+          "upgrade_cost_gold": 250,
+          "note": "同上"
+        },
+        {
+          "weapon_id": "RW02",
+          "name": "霰弹枪",
+          "bullet_type": "spread",
+          "unlock_cost_gold": 150,
+          "level": 4,
+          "fire_interval": 0.6,
+          "damage": 22,
+          "pellets": 7,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 480,
+          "spread_angle": 34,
+          "upgrade_cost_gold": 0,
+          "note": "满级MAX"
+        },
+        {
+          "weapon_id": "RW03",
+          "name": "激光枪",
+          "bullet_type": "laser",
+          "unlock_cost_gold": 220,
+          "level": 1,
+          "fire_interval": 1.1,
+          "damage": 9,
+          "pellets": 1,
+          "pierce": 1,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 800,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 50,
+          "note": "长条蓝色光束；穿透1人"
+        },
+        {
+          "weapon_id": "RW03",
+          "name": "激光枪",
+          "bullet_type": "laser",
+          "unlock_cost_gold": 220,
+          "level": 2,
+          "fire_interval": 0.9,
+          "damage": 11,
+          "pellets": 3,
+          "pierce": 2,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 800,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 120,
+          "note": "激光变粗、穿透2人"
+        },
+        {
+          "weapon_id": "RW03",
+          "name": "激光枪",
+          "bullet_type": "laser",
+          "unlock_cost_gold": 220,
+          "level": 3,
+          "fire_interval": 0.7,
+          "damage": 13,
+          "pellets": 5,
+          "pierce": 3,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 800,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 250,
+          "note": "穿透3人"
+        },
+        {
+          "weapon_id": "RW03",
+          "name": "激光枪",
+          "bullet_type": "laser",
+          "unlock_cost_gold": 220,
+          "level": 4,
+          "fire_interval": 0.5,
+          "damage": 16,
+          "pellets": 7,
+          "pierce": 4,
+          "explosion_radius": 0,
+          "range": 1.6,
+          "bullet_speed": 800,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 0,
+          "note": "满级MAX；穿透4人"
+        },
+        {
+          "weapon_id": "RW04",
+          "name": "追踪导弹枪",
+          "bullet_type": "missile",
+          "unlock_cost_gold": 300,
+          "level": 1,
+          "fire_interval": 1.5,
+          "damage": 20,
+          "pellets": 1,
+          "pierce": 1,
+          "explosion_radius": 0.8,
+          "range": 1.6,
+          "bullet_speed": 260,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 50,
+          "note": "红色制导导弹尾部粒子火焰；爆炸半径0.8m"
+        },
+        {
+          "weapon_id": "RW04",
+          "name": "追踪导弹枪",
+          "bullet_type": "missile",
+          "unlock_cost_gold": 300,
+          "level": 2,
+          "fire_interval": 1.3,
+          "damage": 23,
+          "pellets": 3,
+          "pierce": 1,
+          "explosion_radius": 1,
+          "range": 1.6,
+          "bullet_speed": 300,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 120,
+          "note": "导弹飞行速度加快、爆炸半径1.0m"
+        },
+        {
+          "weapon_id": "RW04",
+          "name": "追踪导弹枪",
+          "bullet_type": "missile",
+          "unlock_cost_gold": 300,
+          "level": 3,
+          "fire_interval": 1.1,
+          "damage": 26,
+          "pellets": 5,
+          "pierce": 1,
+          "explosion_radius": 1.2,
+          "range": 1.6,
+          "bullet_speed": 340,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 250,
+          "note": "爆炸半径1.2m"
+        },
+        {
+          "weapon_id": "RW04",
+          "name": "追踪导弹枪",
+          "bullet_type": "missile",
+          "unlock_cost_gold": 300,
+          "level": 4,
+          "fire_interval": 0.9,
+          "damage": 30,
+          "pellets": 7,
+          "pierce": 1,
+          "explosion_radius": 1.5,
+          "range": 1.6,
+          "bullet_speed": 380,
+          "spread_angle": 0,
+          "upgrade_cost_gold": 0,
+          "note": "满级MAX；爆炸半径1.5m"
+        }
+      ],
+      "upgrade_equipment": [
+        {
+          "upgrade_id": "EQ_ATK",
+          "name": "攻击力",
+          "level": 1,
+          "cost_gold": 50,
+          "effect_value": 0.15,
+          "effect_desc": "基础攻击力+15%"
+        },
+        {
+          "upgrade_id": "EQ_ATK",
+          "name": "攻击力",
+          "level": 2,
+          "cost_gold": 80,
+          "effect_value": 0.3,
+          "effect_desc": "基础攻击力+30%"
+        },
+        {
+          "upgrade_id": "EQ_ATK",
+          "name": "攻击力",
+          "level": 3,
+          "cost_gold": 120,
+          "effect_value": 0.5,
+          "effect_desc": "基础攻击力+50%"
+        },
+        {
+          "upgrade_id": "EQ_ASPD",
+          "name": "攻速",
+          "level": 1,
+          "cost_gold": 50,
+          "effect_value": 0.1,
+          "effect_desc": "攻击间隔-10%"
+        },
+        {
+          "upgrade_id": "EQ_ASPD",
+          "name": "攻速",
+          "level": 2,
+          "cost_gold": 80,
+          "effect_value": 0.18,
+          "effect_desc": "攻击间隔-18%"
+        },
+        {
+          "upgrade_id": "EQ_ASPD",
+          "name": "攻速",
+          "level": 3,
+          "cost_gold": 120,
+          "effect_value": 0.28,
+          "effect_desc": "攻击间隔-28%"
+        },
+        {
+          "upgrade_id": "EQ_RANGE",
+          "name": "射程",
+          "level": 1,
+          "cost_gold": 40,
+          "effect_value": 0.1,
+          "effect_desc": "攻击射程+10%"
+        },
+        {
+          "upgrade_id": "EQ_RANGE",
+          "name": "射程",
+          "level": 2,
+          "cost_gold": 70,
+          "effect_value": 0.18,
+          "effect_desc": "攻击射程+18%"
+        },
+        {
+          "upgrade_id": "EQ_RANGE",
+          "name": "射程",
+          "level": 3,
+          "cost_gold": 100,
+          "effect_value": 0.28,
+          "effect_desc": "攻击射程+28%"
+        },
+        {
+          "upgrade_id": "EQ_PIERCE",
+          "name": "穿透",
+          "level": 1,
+          "cost_gold": 80,
+          "effect_value": 1,
+          "effect_desc": "子弹额外穿透+1"
+        },
+        {
+          "upgrade_id": "EQ_PIERCE",
+          "name": "穿透",
+          "level": 2,
+          "cost_gold": 130,
+          "effect_value": 2,
+          "effect_desc": "子弹额外穿透+2"
+        },
+        {
+          "upgrade_id": "EQ_PIERCE",
+          "name": "穿透",
+          "level": 3,
+          "cost_gold": 200,
+          "effect_value": 3,
+          "effect_desc": "子弹额外穿透+3"
+        }
+      ],
+      "upgrade_skill": [
+        {
+          "upgrade_id": "SK_DMG",
+          "name": "技能伤害",
+          "level": 1,
+          "cost_gold": 60,
+          "effect_value": 0.2,
+          "effect_desc": "技能伤害+20%"
+        },
+        {
+          "upgrade_id": "SK_DMG",
+          "name": "技能伤害",
+          "level": 2,
+          "cost_gold": 100,
+          "effect_value": 0.4,
+          "effect_desc": "技能伤害+40%"
+        },
+        {
+          "upgrade_id": "SK_DMG",
+          "name": "技能伤害",
+          "level": 3,
+          "cost_gold": 150,
+          "effect_value": 0.65,
+          "effect_desc": "技能伤害+65%"
+        },
+        {
+          "upgrade_id": "SK_CD",
+          "name": "技能冷却",
+          "level": 1,
+          "cost_gold": 60,
+          "effect_value": 0.1,
+          "effect_desc": "技能冷却-10%"
+        },
+        {
+          "upgrade_id": "SK_CD",
+          "name": "技能冷却",
+          "level": 2,
+          "cost_gold": 100,
+          "effect_value": 0.18,
+          "effect_desc": "技能冷却-18%"
+        },
+        {
+          "upgrade_id": "SK_CD",
+          "name": "技能冷却",
+          "level": 3,
+          "cost_gold": 150,
+          "effect_value": 0.28,
+          "effect_desc": "技能冷却-28%"
+        },
+        {
+          "upgrade_id": "SK_RANGE",
+          "name": "技能范围",
+          "level": 1,
+          "cost_gold": 50,
+          "effect_value": 0.15,
+          "effect_desc": "技能范围+15%"
+        },
+        {
+          "upgrade_id": "SK_RANGE",
+          "name": "技能范围",
+          "level": 2,
+          "cost_gold": 80,
+          "effect_value": 0.28,
+          "effect_desc": "技能范围+28%"
+        },
+        {
+          "upgrade_id": "SK_RANGE",
+          "name": "技能范围",
+          "level": 3,
+          "cost_gold": 120,
+          "effect_value": 0.45,
+          "effect_desc": "技能范围+45%"
+        }
+      ],
+      "upgrade_ultimate": [
+        {
+          "upgrade_id": "UL_DMG",
+          "name": "大招伤害",
+          "level": 1,
+          "cost_gold": 70,
+          "effect_value": 0.25,
+          "effect_desc": "大招伤害+25%"
+        },
+        {
+          "upgrade_id": "UL_DMG",
+          "name": "大招伤害",
+          "level": 2,
+          "cost_gold": 160,
+          "effect_value": 0.5,
+          "effect_desc": "大招伤害+50%"
+        },
+        {
+          "upgrade_id": "UL_DMG",
+          "name": "大招伤害",
+          "level": 3,
+          "cost_gold": 240,
+          "effect_value": 0.8,
+          "effect_desc": "大招伤害+80%"
+        },
+        {
+          "upgrade_id": "UL_CD",
+          "name": "大招冷却",
+          "level": 1,
+          "cost_gold": 70,
+          "effect_value": 0.12,
+          "effect_desc": "大招冷却-12%"
+        },
+        {
+          "upgrade_id": "UL_CD",
+          "name": "大招冷却",
+          "level": 2,
+          "cost_gold": 160,
+          "effect_value": 0.22,
+          "effect_desc": "大招冷却-22%"
+        },
+        {
+          "upgrade_id": "UL_CD",
+          "name": "大招冷却",
+          "level": 3,
+          "cost_gold": 240,
+          "effect_value": 0.35,
+          "effect_desc": "大招冷却-35%"
+        },
+        {
+          "upgrade_id": "UL_RANGE",
+          "name": "大招范围",
+          "level": 1,
+          "cost_gold": 70,
+          "effect_value": 0.2,
+          "effect_desc": "大招范围+20%"
+        },
+        {
+          "upgrade_id": "UL_RANGE",
+          "name": "大招范围",
+          "level": 2,
+          "cost_gold": 130,
+          "effect_value": 0.35,
+          "effect_desc": "大招范围+35%"
+        },
+        {
+          "upgrade_id": "UL_RANGE",
+          "name": "大招范围",
+          "level": 3,
+          "cost_gold": 200,
+          "effect_value": 0.55,
+          "effect_desc": "大招范围+55%"
+        }
+      ],
+      "skills": [
+        {
+          "skill_id": "SK01",
+          "name": "震荡波",
+          "type": "active",
+          "base_coeff": 1.8,
+          "cooldown": 10,
+          "unlock_level": 1,
+          "effect_desc": "以角色为中心环形冲击击退并造成180%攻击力范围伤害"
+        },
+        {
+          "skill_id": "SK02",
+          "name": "弹幕风暴",
+          "type": "ultimate",
+          "base_coeff": 0,
+          "cooldown": 40,
+          "unlock_level": 3,
+          "effect_desc": "3秒内攻速×3且子弹无限穿透"
+        }
+      ],
+      "feedback_config": [
+        {
+          "param_name": "hitstop_normal",
+          "default_value": 0.02,
+          "unit": "s",
+          "description": "普通命中停顿"
+        },
+        {
+          "param_name": "hitstop_crit",
+          "default_value": 0.05,
+          "unit": "s",
+          "description": "暴击停顿"
+        },
+        {
+          "param_name": "hitstop_kill",
+          "default_value": 0.06,
+          "unit": "s",
+          "description": "击杀停顿"
+        },
+        {
+          "param_name": "shake_crit",
+          "default_value": 2,
+          "unit": "px",
+          "description": "暴击震动幅度"
+        },
+        {
+          "param_name": "shake_elite_kill",
+          "default_value": 4,
+          "unit": "px",
+          "description": "精英击杀震动"
+        },
+        {
+          "param_name": "shake_boss_hit_core",
+          "default_value": 8,
+          "unit": "px",
+          "description": "Boss撞核心震动"
+        },
+        {
+          "param_name": "flash_white_duration",
+          "default_value": 0.06,
+          "unit": "s",
+          "description": "受击闪白时长"
+        },
+        {
+          "param_name": "knockback_normal",
+          "default_value": 8,
+          "unit": "px",
+          "description": "普通怪击退像素"
+        },
+        {
+          "param_name": "clear_light_threshold",
+          "default_value": 8,
+          "unit": "count",
+          "description": "轻清屏击杀阈值"
+        },
+        {
+          "param_name": "clear_mid_threshold",
+          "default_value": 15,
+          "unit": "count",
+          "description": "中清屏击杀阈值"
+        },
+        {
+          "param_name": "clear_heavy_threshold",
+          "default_value": 30,
+          "unit": "count",
+          "description": "重清屏击杀阈值"
+        },
+        {
+          "param_name": "particle_cap_normal",
+          "default_value": 300,
+          "unit": "count",
+          "description": "普通粒子上限"
+        },
+        {
+          "param_name": "particle_cap_clear",
+          "default_value": 600,
+          "unit": "count",
+          "description": "清屏粒子上限"
+        }
+      ],
+      "level_multiplier": [
+        {
+          "level_id": 1,
+          "hp_multiplier": 1,
+          "gold_multiplier": 1,
+          "note": "教学关"
+        },
+        {
+          "level_id": 2,
+          "hp_multiplier": 1.08,
+          "gold_multiplier": 1.05,
+          "note": ""
+        },
+        {
+          "level_id": 3,
+          "hp_multiplier": 1.16,
+          "gold_multiplier": 1.1,
+          "note": "首次 Boss 前压力关"
+        },
+        {
+          "level_id": 4,
+          "hp_multiplier": 1.24,
+          "gold_multiplier": 1.15,
+          "note": ""
+        },
+        {
+          "level_id": 5,
+          "hp_multiplier": 1.32,
+          "gold_multiplier": 1.2,
+          "note": "碎骨者 Boss 关"
+        },
+        {
+          "level_id": 6,
+          "hp_multiplier": 1.42,
+          "gold_multiplier": 1.28,
+          "note": ""
+        },
+        {
+          "level_id": 7,
+          "hp_multiplier": 1.52,
+          "gold_multiplier": 1.36,
+          "note": ""
+        },
+        {
+          "level_id": 8,
+          "hp_multiplier": 1.62,
+          "gold_multiplier": 1.44,
+          "note": ""
+        },
+        {
+          "level_id": 9,
+          "hp_multiplier": 1.72,
+          "gold_multiplier": 1.52,
+          "note": ""
+        },
+        {
+          "level_id": 10,
+          "hp_multiplier": 1.84,
+          "gold_multiplier": 1.6,
+          "note": "腐化之母 Boss 关"
+        },
+        {
+          "level_id": 11,
+          "hp_multiplier": 1.96,
+          "gold_multiplier": 1.68,
+          "note": ""
+        },
+        {
+          "level_id": 12,
+          "hp_multiplier": 2.08,
+          "gold_multiplier": 1.76,
+          "note": ""
+        },
+        {
+          "level_id": 13,
+          "hp_multiplier": 2.2,
+          "gold_multiplier": 1.84,
+          "note": ""
+        },
+        {
+          "level_id": 14,
+          "hp_multiplier": 2.32,
+          "gold_multiplier": 1.92,
+          "note": ""
+        },
+        {
+          "level_id": 15,
+          "hp_multiplier": 2.46,
+          "gold_multiplier": 2,
+          "note": "铁壁 Boss 关"
+        }
+      ],
+      "boss_phase_events": [
+        {
+          "boss_id": "B01",
+          "phase": 1,
+          "event_time": 0,
+          "event_type": "transition",
+          "skill_id": "",
+          "param": null,
+          "warning": 1.5,
+          "note": "出场无敌"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 1,
+          "event_time": 1,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1.2,
+          "note": "直线冲撞"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 1,
+          "event_time": 4,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1.2,
+          "note": "冷却3s"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 1,
+          "event_time": 7,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1.2,
+          "note": "阶段末"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 0,
+          "event_type": "transition",
+          "skill_id": "",
+          "param": null,
+          "warning": 1.5,
+          "note": "转场冷却重置"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 0.9,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 3,
+          "warning": 0.8,
+          "note": "3个路径障碍"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 2.7,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1.2,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 4.4,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 3,
+          "warning": 0.8,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 6.2,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1.2,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 2,
+          "event_time": 8,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 3,
+          "warning": 0.8,
+          "note": "阶段末"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 0,
+          "event_type": "transition",
+          "skill_id": "",
+          "param": null,
+          "warning": 1.5,
+          "note": "狂暴攻速+30%"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 0.8,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1,
+          "note": "冷却2s"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 2,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 5,
+          "warning": 0.6,
+          "note": "5个路径障碍"
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 2.4,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 4,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 4.2,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 5,
+          "warning": 0.6,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 5.6,
+          "event_type": "skill",
+          "skill_id": "BS01_charge",
+          "param": null,
+          "warning": 1,
+          "note": ""
+        },
+        {
+          "boss_id": "B01",
+          "phase": 3,
+          "event_time": 6,
+          "event_type": "skill",
+          "skill_id": "BS02_bonespike",
+          "param": 5,
+          "warning": 0.6,
+          "note": "阶段末"
+        }
+      ],
+      "boss_skill_timeline": [
+        {
+          "skill_id": "BS01_charge",
+          "name": "直线冲撞",
+          "cast_time": 1.2,
+          "active_time": 0.6,
+          "cooldown": 3,
+          "damage_coeff": 0.15,
+          "effect_desc": "前摇后冲锋；驻留期间不抵达核心，核心伤害为 0，P3 间隔降为 2s"
+        },
+        {
+          "skill_id": "BS02_bonespike",
+          "name": "投掷骨刺",
+          "cast_time": 0.8,
+          "active_time": 0.3,
+          "cooldown": 2,
+          "damage_coeff": 0,
+          "effect_desc": "在路径上生成减速障碍可被射击摧毁"
+        }
+      ],
+      "boss_growth": [
+        {
+          "level_range": {
+            "start": 1,
+            "end": 5
+          },
+          "hp_multiplier": 1,
+          "damage_multiplier": 1,
+          "note": "教学期机制为主"
+        },
+        {
+          "level_range": {
+            "start": 6,
+            "end": 10
+          },
+          "hp_multiplier": 1.4,
+          "damage_multiplier": 1.1,
+          "note": "引入构筑检验"
+        },
+        {
+          "level_range": {
+            "start": 11,
+            "end": 15
+          },
+          "hp_multiplier": 1.9,
+          "damage_multiplier": 1.25,
+          "note": "多机制叠加"
+        },
+        {
+          "level_range": {
+            "start": 16,
+            "end": 20
+          },
+          "hp_multiplier": 2.5,
+          "damage_multiplier": 1.4,
+          "note": "需要成型构筑"
+        },
+        {
+          "level_range": {
+            "start": 21,
+            "end": 9999
+          },
+          "hp_multiplier": 3.2,
+          "damage_multiplier": 1.55,
+          "note": "长线挑战但机制不新增"
+        }
+      ],
+      "meta_progression": [
+        {
+          "type": "core_hp",
+          "level": 1,
+          "cost_gold": 0,
+          "effect_value": 100,
+          "effect_desc": "核心基础血量100"
+        },
+        {
+          "type": "core_hp",
+          "level": 2,
+          "cost_gold": 200,
+          "effect_value": 120,
+          "effect_desc": "核心血量+20%"
+        },
+        {
+          "type": "core_hp",
+          "level": 3,
+          "cost_gold": 500,
+          "effect_value": 145,
+          "effect_desc": "核心血量+45%"
+        },
+        {
+          "type": "core_hp",
+          "level": 4,
+          "cost_gold": 1000,
+          "effect_value": 175,
+          "effect_desc": "核心血量+75%"
+        },
+        {
+          "type": "core_hp",
+          "level": 5,
+          "cost_gold": 2000,
+          "effect_value": 210,
+          "effect_desc": "核心血量+110%"
+        },
+        {
+          "type": "cannon_level",
+          "level": 1,
+          "cost_gold": 0,
+          "effect_value": 1,
+          "effect_desc": "炮台基础伤害系数1.0"
+        },
+        {
+          "type": "cannon_level",
+          "level": 2,
+          "cost_gold": 300,
+          "effect_value": 1.15,
+          "effect_desc": "炮台伤害+15%"
+        },
+        {
+          "type": "cannon_level",
+          "level": 3,
+          "cost_gold": 800,
+          "effect_value": 1.35,
+          "effect_desc": "炮台伤害+35%"
+        },
+        {
+          "type": "cannon_level",
+          "level": 4,
+          "cost_gold": 1600,
+          "effect_value": 1.6,
+          "effect_desc": "炮台伤害+60%"
+        },
+        {
+          "type": "cannon_level",
+          "level": 5,
+          "cost_gold": 3200,
+          "effect_value": 1.9,
+          "effect_desc": "炮台伤害+90%"
+        },
+        {
+          "type": "start_gold",
+          "level": 1,
+          "cost_gold": 0,
+          "effect_value": 50,
+          "effect_desc": "开局金币50"
+        },
+        {
+          "type": "start_gold",
+          "level": 2,
+          "cost_gold": 400,
+          "effect_value": 70,
+          "effect_desc": "开局金币70"
+        },
+        {
+          "type": "start_gold",
+          "level": 3,
+          "cost_gold": 900,
+          "effect_value": 100,
+          "effect_desc": "开局金币100"
+        },
+        {
+          "type": "start_gold",
+          "level": 4,
+          "cost_gold": 1800,
+          "effect_value": 140,
+          "effect_desc": "开局金币140"
+        },
+        {
+          "type": "skill_cd",
+          "level": 1,
+          "cost_gold": 0,
+          "effect_value": 0,
+          "effect_desc": "技能冷却无缩减"
+        },
+        {
+          "type": "skill_cd",
+          "level": 2,
+          "cost_gold": 600,
+          "effect_value": 0.1,
+          "effect_desc": "技能冷却-10%"
+        },
+        {
+          "type": "skill_cd",
+          "level": 3,
+          "cost_gold": 1400,
+          "effect_value": 0.18,
+          "effect_desc": "技能冷却-18%"
+        }
+      ],
+      "economy_sources": [
+        {
+          "source_id": "SRC01",
+          "source_type": "存活结算金币",
+          "amount_formula": "floor(survival_sec / 60) * 20",
+          "cap": "无",
+          "daily_limit": "无",
+          "note": "基础产出"
+        },
+        {
+          "source_id": "SRC02",
+          "source_type": "循环达成碎片",
+          "amount_formula": "cycle_index * 2",
+          "cap": "无",
+          "daily_limit": "无",
+          "note": "局外皮肤与解锁材料"
+        },
+        {
+          "source_id": "SRC03",
+          "source_type": "最高纪录刷新奖励",
+          "amount_formula": "30",
+          "cap": "无",
+          "daily_limit": "无",
+          "note": "首次刷新纪录额外给"
+        },
+        {
+          "source_id": "SRC04",
+          "source_type": "日常任务",
+          "amount_formula": "80",
+          "cap": "无",
+          "daily_limit": "3次/天",
+          "note": "击杀/存活类任务"
+        },
+        {
+          "source_id": "SRC05",
+          "source_type": "周常任务",
+          "amount_formula": "500",
+          "cap": "无",
+          "daily_limit": "1次/周",
+          "note": "累计存活10局"
+        },
+        {
+          "source_id": "SRC06",
+          "source_type": "离线收益",
+          "amount_formula": "min(离线小时数 * 20, 400)",
+          "cap": "400",
+          "daily_limit": "1次/天",
+          "note": "需看广告双倍"
+        },
+        {
+          "source_id": "SRC07",
+          "source_type": "激励视频双倍结算",
+          "amount_formula": "结算金币 * 1.0",
+          "cap": "无",
+          "daily_limit": "1次/局",
+          "note": "与SRC01叠加"
+        }
+      ],
+      "economy_loop": [
+        {
+          "currency": "局内金币",
+          "earn_from": "击杀怪物",
+          "spend_on": "角色武器解锁与升级/购买左右武器槽武器/三条线升级",
+          "carry_over": "否",
+          "note": "单局结束清零"
+        },
+        {
+          "currency": "金币（局外）",
+          "earn_from": "存活结算/日常/离线/广告双倍",
+          "spend_on": "皮肤/外观",
+          "carry_over": "是",
+          "note": "主货币"
+        },
+        {
+          "currency": "碎片",
+          "earn_from": "循环达成结算",
+          "spend_on": "解锁皮肤",
+          "carry_over": "是",
+          "note": "次级货币"
+        },
+        {
+          "currency": "钻石（IAP）",
+          "earn_from": "充值/活动",
+          "spend_on": "去广告/月卡/皮肤",
+          "carry_over": "是",
+          "note": "付费货币"
+        }
+      ]
+    }
+  }
+}

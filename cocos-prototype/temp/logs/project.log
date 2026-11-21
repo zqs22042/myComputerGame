@@ -1,0 +1,36 @@
+2026-11-21 11:46:26 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine
+2026-11-21 11:46:27 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\native
+2026-11-21 11:46:28 - log: Request namespace: device-list
+2026-11-21 11:46:33 - log: [RB] extension loaded v0.1.12 sha256=3d66302ab21f7808de5cd6d5908c063a9d9ca2e38ad335388e5cae82906ce7ff path=C:\Users\朱秋实\.CocosCreator\builtin-extensions\3.8.8\runtime-bridge
+2026-11-21 11:46:41 - warn: 构建参数 mainBundleCompressionType (merge_dep) 校验失败,  compression type(undefined) is invalid for this platform!, 将会使用默认值 "merge_dep"
+2026-11-21 11:46:41 - warn: 构建参数 debug ("false") 校验失败, typeof debug should be boolean but get false, 将会使用默认值 false
+2026-11-21 11:46:41 - log: 2026-11-21 11:46:41 - log: Asset DB is paused with build!
+
+2026-11-21 11:46:41 - log: 2026-11-21 11:46:41 - log: creating executor ...
+
+2026-11-21 11:46:41 - log: 2026-11-21 11:46:41 - log: run build task 查询 Asset Bundle success in 369 ms√, progress: 12%
+
+2026-11-21 11:46:42 - log: 2026-11-21 11:46:41 - log: run build task 查询 Asset Bundle success in 115 ms√, progress: 17%
+
+2026-11-21 11:46:42 - log: 2026-11-21 11:46:42 - log: [buildPolyfillsCommand]enter sub process 25664, 9229, see: chrome://inspect/#devices
+
+2026-11-21 11:46:55 - log: 2026-11-21 11:46:55 - log: [buildScriptCommand]Number of non-entry chunks: 3
+
+2026-11-21 11:46:55 - log: 2026-11-21 11:46:55 - log: run build task 打包脚本 success in 13 s√, progress: 22%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:55 - log: run build task Build Assets success in 205 ms√, progress: 27%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:55 - log: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 29%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:55 - log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 31%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:55 - log: run build task 整理部分构建选项内数据到 settings.json success in 9 ms√, progress: 32%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:56 - log: run build task 整理静态模板文件 success in 99 ms√, progress: 41%
+
+2026-11-21 11:46:56 - log: 2026-11-21 11:46:56 - log: run build task 给所有的资源加上 MD5 后缀 success in 11 ms√, progress: 55%
+
+2026-11-21 11:46:57 - log: 2026-11-21 11:46:56 - log: [RB] active core v0.1.12 sha256=3d66302ab21f7808de5cd6d5908c063a9d9ca2e38ad335388e5cae82906ce7ff path=C:\Users\朱秋实\.CocosCreator\builtin-extensions\3.8.8\runtime-bridge
+
+2026-11-21 11:46:57 - log: 2026-11-21 11:46:57 - log: Asset DB is resume!
+

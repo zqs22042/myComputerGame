@@ -1,0 +1,7 @@
+monster_id,name,hp_base,speed,armor,gold_drop,exp_drop,spawn_weight,special,leak_damage
+M01,快速小怪,30,120,0,3,2,40,none,2
+M02,装甲怪,70,70,10,8,5,25,armor,4
+M03,飞行怪,45,100,0,6,4,20,fly,3
+M04,自爆怪,60,90,0,7,4,10,explode,0
+M05,精英盾卫,60,50,10,40,25,5,elite_armor,8
+M06,Boss碎骨者,1800,40,10,200,120,0,boss,0

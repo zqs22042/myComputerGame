@@ -1,0 +1,7 @@
+node_index,x,y,node_type
+0,0.50,1.00,spawn
+1,0.50,0.90,path
+2,0.50,0.80,path
+3,0.50,0.68,path
+4,0.50,0.50,path
+5,0.50,0.24,core

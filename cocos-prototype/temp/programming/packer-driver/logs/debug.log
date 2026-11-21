@@ -1,0 +1,420 @@
+11:46:37.484 debug: 2026/11/21 11:46:37
+11:46:37.485 debug: Project: c:\Users\朱秋实\Desktop\new game\cocos-prototype
+11:46:37.485 debug: Targets: editor,preview
+11:46:37.489 debug: Incremental file seems great.
+11:46:37.490 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine
+11:46:37.507 debug: Initializing target [Editor]
+11:46:37.507 debug: Loading cache
+11:46:37.509 debug: Loading cache costs 1.3087999999988824ms.
+11:46:37.509 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,rich-text,mask,graphics,ui-skew,ui,affine-transform,sorting-2d,particle,particle-2d,physics-framework,physics-cannon,physics-physx,physics-ammo,physics-builtin,physics-2d-framework,physics-2d-box2d-jsb,physics-2d-box2d,physics-2d-builtin,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine-3.8,spine-4.2,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+11:46:37.509 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+11:46:37.510 debug: Initializing target [Preview]
+11:46:37.510 debug: Loading cache
+11:46:37.511 debug: Loading cache costs 1.6136999999998807ms.
+11:46:37.512 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+11:46:37.570 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,graphics,intersection-2d,light-probe,marionette,mask,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,rich-text,skeletal-animation,spine-3.8,terrain,tiled-map,tween,ui,ui-skew,video,websocket,webview
+11:46:37.573 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "C:\\Users\\朱秋实\\Desktop\\new game\\cocos-prototype\\assets"
+  }
+]
+11:46:37.574 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/"
+  }
+}
+11:46:37.577 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/"
+  }
+}
+11:46:37.579 debug: Pulling asset-db.
+11:46:37.589 debug: Fetch asset-db cost: 9.950300000000425ms.
+11:46:37.591 debug: Build iteration starts.
+Number of accumulated asset changes: 21
+Feature changed: false
+11:46:37.592 debug: Target(editor) build started.
+11:46:37.598 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+11:46:37.598 debug: Inspect cce:/internal/x/cc
+11:46:37.673 debug: transform url: 'cce:/internal/x/cc' costs: 75.00 ms
+11:46:37.675 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:46:37.675 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:46:37.675 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/ui-skew from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui-skew.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/sorting-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting-2d.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-physx from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-physx.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-builtin.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-jsb from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-jsb.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-2d-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-builtin.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+11:46:37.676 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+11:46:37.677 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+11:46:37.677 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+11:46:37.677 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:37.706 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 28.20 ms
+11:46:37.710 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:46:37.712 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:37.715 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:37.717 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:37.719 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:37.720 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:37.722 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts.
+11:46:37.723 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:37.724 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts.
+11:46:37.726 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts.
+11:46:37.727 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts.
+11:46:37.728 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:37.729 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts. Last mtime: Sat Nov 21 2026 11:35:08 GMT+0800 (中国标准时间)@c8eb1249-08ac-4c5a-82bd-a6fe806eaae4, Current mtime: Sat Nov 21 2026 11:46:19 GMT+0800 (中国标准时间)@c8eb1249-08ac-4c5a-82bd-a6fe806eaae4
+11:46:37.729 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts
+11:46:37.804 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts' costs: 75.40 ms
+11:46:37.808 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:37.810 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts.
+11:46:37.812 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:37.813 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts.
+11:46:37.814 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:37.814 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@1dbb79f3-ecf9-48af-b566-6b395c340661, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@1dbb79f3-ecf9-48af-b566-6b395c340661
+11:46:37.814 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts
+11:46:38.135 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts' costs: 320.50 ms
+11:46:38.140 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:38.140 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@7c1bfb09-f140-4b41-9965-e5e84c0232f1, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@7c1bfb09-f140-4b41-9965-e5e84c0232f1
+11:46:38.141 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts
+11:46:38.177 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts' costs: 36.00 ms
+11:46:38.181 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:38.181 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1
+11:46:38.181 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts
+11:46:38.214 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts' costs: 32.60 ms
+11:46:38.217 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:38.218 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@92c4476e-22be-4f5c-9c6e-f0aa73151645, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@92c4476e-22be-4f5c-9c6e-f0aa73151645
+11:46:38.218 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts
+11:46:38.256 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts' costs: 38.00 ms
+11:46:38.259 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:38.259 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@de55c3be-3767-42b3-979d-546cbe409485, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@de55c3be-3767-42b3-979d-546cbe409485
+11:46:38.259 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts
+11:46:38.291 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts' costs: 31.70 ms
+11:46:38.293 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.293 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Nov 21 2026 11:40:15 GMT+0800 (中国标准时间), Current mtime: Sat Nov 21 2026 11:46:27 GMT+0800 (中国标准时间)
+11:46:38.293 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:46:38.314 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 20.30 ms
+11:46:38.316 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:38.317 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:38.317 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:38.317 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+11:46:38.320 debug: Resolve ./builtin-pipeline-settings from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:38.322 debug: Resolve ./builtin-pipeline-pass from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:38.324 debug: Resolve ./builtin-pipeline from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:38.325 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.325 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:38.326 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:38.326 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:38.326 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+11:46:38.328 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:38.329 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:38.329 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:38.331 debug: Resolve ./builtin-pipeline-settings from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:38.332 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+11:46:38.332 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.332 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:38.332 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:38.332 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:38.332 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+11:46:38.334 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:38.334 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:38.334 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:38.334 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:38.334 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.334 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:38.335 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:38.335 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:38.336 debug: Resolve ./game/Coords from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:38.338 debug: Resolve ./game/BattleModel from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:38.340 debug: Resolve ./game/Renderer from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:38.340 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts as cce:/internal/x/cc.
+11:46:38.340 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.340 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as cce:/internal/x/cc.
+11:46:38.341 debug: Resolve ../logic/battleModelCore from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:38.341 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.341 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as cce:/internal/x/cc.
+11:46:38.355 debug: Resolve ./core/endless from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:38.358 debug: Resolve ./core/upgrade from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:38.360 debug: Resolve ./core/softGrowth from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:38.362 debug: Resolve ./damage from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:38.362 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts as cce:/internal/x/cc.
+11:46:38.362 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts as cce:/internal/x/cc.
+11:46:38.362 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts as cce:/internal/x/cc.
+11:46:38.363 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts as cce:/internal/x/cc.
+11:46:38.363 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.363 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:38.363 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:38.363 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:38.364 debug: Resolve ./Coords from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:38.364 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts as cce:/internal/x/cc.
+11:46:38.364 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts as cce:/internal/x/cc.
+11:46:38.365 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts as cce:/internal/x/cc.
+11:46:38.365 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts as cce:/internal/x/cc.
+11:46:38.365 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as cce:/internal/code-quality/cr.mjs.
+11:46:38.365 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as cce:/internal/x/cc.
+11:46:38.367 debug: Resolve ../core/CardDraw from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:38.367 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts as cce:/internal/x/cc.
+11:46:38.406 debug: Target(editor) ends with cost 814.5901000000013ms.
+11:46:38.407 debug: Target(preview) build started.
+11:46:38.414 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+11:46:38.414 debug: Inspect cce:/internal/x/cc
+11:46:38.452 debug: transform url: 'cce:/internal/x/cc' costs: 37.50 ms
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:46:38.454 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:46:38.455 debug: Resolve cce:/internal/x/cc-fu/ui-skew from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui-skew.
+11:46:38.455 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:46:38.455 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:46:38.455 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+11:46:38.455 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:38.473 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 17.90 ms
+11:46:38.476 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:46:38.477 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:38.479 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:38.481 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:38.482 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:38.483 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:38.484 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts.
+11:46:38.486 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:38.487 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts.
+11:46:38.488 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts.
+11:46:38.489 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts.
+11:46:38.490 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:38.490 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts. Last mtime: Sat Nov 21 2026 11:35:08 GMT+0800 (中国标准时间)@c8eb1249-08ac-4c5a-82bd-a6fe806eaae4, Current mtime: Sat Nov 21 2026 11:46:19 GMT+0800 (中国标准时间)@c8eb1249-08ac-4c5a-82bd-a6fe806eaae4
+11:46:38.490 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts
+11:46:38.553 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts' costs: 62.40 ms
+11:46:38.556 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:38.557 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts.
+11:46:38.559 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:38.560 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts.
+11:46:38.561 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:38.561 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@1dbb79f3-ecf9-48af-b566-6b395c340661, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@1dbb79f3-ecf9-48af-b566-6b395c340661
+11:46:38.562 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts
+11:46:38.828 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts' costs: 266.40 ms
+11:46:38.833 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:38.834 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@7c1bfb09-f140-4b41-9965-e5e84c0232f1, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@7c1bfb09-f140-4b41-9965-e5e84c0232f1
+11:46:38.834 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts
+11:46:38.886 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts' costs: 52.30 ms
+11:46:38.890 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:38.890 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1
+11:46:38.890 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts
+11:46:38.925 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts' costs: 34.90 ms
+11:46:38.928 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:38.928 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@92c4476e-22be-4f5c-9c6e-f0aa73151645, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@92c4476e-22be-4f5c-9c6e-f0aa73151645
+11:46:38.930 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts
+11:46:38.993 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts' costs: 62.60 ms
+11:46:38.996 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:38.996 debug: Detected change: file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts. Last mtime: Sat Nov 21 2026 11:37:18 GMT+0800 (中国标准时间)@de55c3be-3767-42b3-979d-546cbe409485, Current mtime: Sat Nov 21 2026 11:46:21 GMT+0800 (中国标准时间)@de55c3be-3767-42b3-979d-546cbe409485
+11:46:38.996 debug: Inspect file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts
+11:46:39.041 debug: transform url: 'file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts' costs: 45.00 ms
+11:46:39.043 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.043 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Nov 21 2026 11:40:15 GMT+0800 (中国标准时间), Current mtime: Sat Nov 21 2026 11:46:27 GMT+0800 (中国标准时间)
+11:46:39.043 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:46:39.057 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 13.80 ms
+11:46:39.059 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:39.059 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:39.059 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+11:46:39.059 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+11:46:39.060 debug: Resolve ./builtin-pipeline-settings from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:39.063 debug: Resolve ./builtin-pipeline-pass from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:39.065 debug: Resolve ./builtin-pipeline from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:39.065 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.065 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:39.065 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:39.065 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+11:46:39.065 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+11:46:39.066 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+11:46:39.067 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:39.067 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+11:46:39.069 debug: Resolve ./builtin-pipeline-settings from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:39.069 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+11:46:39.069 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.069 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:39.069 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:39.069 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+11:46:39.069 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+11:46:39.071 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:39.071 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:39.071 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:39.071 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:46:39.071 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.071 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:39.071 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:39.071 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+11:46:39.073 debug: Resolve ./game/Coords from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:39.074 debug: Resolve ./game/BattleModel from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:39.075 debug: Resolve ./game/Renderer from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:39.075 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts as cce:/internal/x/cc.
+11:46:39.075 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.075 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as cce:/internal/x/cc.
+11:46:39.077 debug: Resolve ../logic/battleModelCore from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:39.077 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.077 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as cce:/internal/x/cc.
+11:46:39.078 debug: Resolve ./core/endless from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:39.079 debug: Resolve ./core/upgrade from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:39.080 debug: Resolve ./core/softGrowth from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:39.082 debug: Resolve ./damage from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:39.082 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as cce:/internal/x/cc.
+11:46:39.084 debug: Resolve ./Coords from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:39.084 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts as cce:/internal/x/cc.
+11:46:39.084 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts as cce:/internal/x/cc.
+11:46:39.084 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts as cce:/internal/x/cc.
+11:46:39.084 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts as cce:/internal/x/cc.
+11:46:39.084 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as cce:/internal/code-quality/cr.mjs.
+11:46:39.084 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as cce:/internal/x/cc.
+11:46:39.085 debug: Resolve ../core/CardDraw from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:39.085 debug: Resolve cc from file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts as cce:/internal/x/cc.
+11:46:39.122 debug: Target(preview) ends with cost 715.3302000000003ms.
+11:46:40.680 debug: Pulling asset-db.
+11:46:41.272 debug: Fetch asset-db cost: 590.9688999999998ms.
+11:46:41.277 debug: Build iteration starts.
+Number of accumulated asset changes: 21
+Feature changed: false
+11:46:41.278 debug: Target(editor) build started.
+11:46:41.300 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间)
+11:46:41.301 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:41.336 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 35.20 ms
+11:46:41.346 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:46:41.353 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:41.360 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:41.365 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:41.371 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:41.376 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:41.379 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts.
+11:46:41.383 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:41.386 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts.
+11:46:41.390 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts.
+11:46:41.393 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts.
+11:46:41.397 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:41.400 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:41.404 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts.
+11:46:41.407 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:41.410 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts.
+11:46:41.412 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:41.414 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:41.418 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:41.420 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:41.422 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:41.483 debug: Target(editor) ends with cost 204.72769999999946ms.
+11:46:41.484 debug: Target(preview) build started.
+11:46:41.490 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (中国标准时间)
+11:46:41.491 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:41.514 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 22.80 ms
+11:46:41.519 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:46:41.521 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:46:41.523 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:46:41.525 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:46:41.528 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:46:41.530 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:41.532 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/GameRoot.ts.
+11:46:41.534 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/CardDraw.ts.
+11:46:41.535 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Damage.ts.
+11:46:41.536 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Pool.ts.
+11:46:41.538 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/core/Rng.ts.
+11:46:41.539 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/BattleModel.ts.
+11:46:41.541 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Coords.ts.
+11:46:41.542 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Modifiers.ts.
+11:46:41.543 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Renderer.ts.
+11:46:41.545 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/game/Types.ts.
+11:46:41.546 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/battleModelCore.ts.
+11:46:41.550 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/endless.ts.
+11:46:41.551 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/softGrowth.ts.
+11:46:41.552 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/core/upgrade.ts.
+11:46:41.554 debug: Resolve file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/%E6%9C%B1%E7%A7%8B%E5%AE%9E/Desktop/new%20game/cocos-prototype/assets/scripts/logic/damage.ts.
+11:46:41.600 debug: Target(preview) ends with cost 116.4356000000007ms.

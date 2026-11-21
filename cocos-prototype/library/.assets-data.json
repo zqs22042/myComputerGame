@@ -1,0 +1,154 @@
+{
+  "5917c9a9-1215-4a8d-b662-b1f92fac4207": {
+    "url": "db://assets/scripts/GameRoot.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "65794316-8f3a-42a7-9150-0ac472c5ee3d": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "8ce40fcb-fc8c-498a-aa66-87cad2f31503": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2a6c1587-385b-4b6a-827d-0aef9ee82a6e": {
+    "url": "db://assets/scripts/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "41ba7924-9985-48c5-9b92-6d95aabf5f25": {
+    "url": "db://assets/scripts/game",
+    "value": {},
+    "versionCode": 1
+  },
+  "e720afd8-93e2-4e0c-b08a-3761cdf7414a": {
+    "url": "db://assets/scripts/core/BossTimeline.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fac3426e-dae5-4102-b303-ba5a3c1e8a93": {
+    "url": "db://assets/scripts/core/CardDraw.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bc93b40-cc65-42cb-8762-082f59396fc9": {
+    "url": "db://assets/scripts/core/Damage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1c0b1d98-fa70-4126-bfd5-45caef9efd0a": {
+    "url": "db://assets/scripts/core/Pool.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8638ab97-c7cf-4a6f-af7a-20840d1a8506": {
+    "url": "db://assets/scripts/core/Rng.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c8eb1249-08ac-4c5a-82bd-a6fe806eaae4": {
+    "url": "db://assets/scripts/game/BattleModel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c470c744-bdc7-4723-9264-0cab866e863e": {
+    "url": "db://assets/scripts/game/Coords.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7b27a36a-13d4-4d4c-b43f-0d7a4f5282a5": {
+    "url": "db://assets/scripts/game/Modifiers.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc86efbf-7774-4d78-9030-e66fabc22324": {
+    "url": "db://assets/scripts/game/Renderer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f51ce31f-3646-4832-8fab-2af04f092367": {
+    "url": "db://assets/scripts/game/Types.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a21c2a1b-9eb3-4309-8cd3-853a9c60fe8b": {
+    "url": "db://assets/resources/config.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b7c41f6a-2d58-4c19-8e73-0a95d2f6b8c1": {
+    "url": "db://assets/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "a3f5d0c2-7b41-4e98-9d62-1c5b8e04f7a6": {
+    "url": "db://assets/scenes/main.scene",
+    "value": {
+      "depends": [],
+      "dependScripts": [
+        "5917c9a9-1215-4a8d-b662-b1f92fac4207"
+      ]
+    },
+    "versionCode": 2
+  },
+  "f6462b41-0b5b-4661-9a8e-0f38f94fc46a": {
+    "url": "db://assets/scripts/logic",
+    "value": {},
+    "versionCode": 1
+  },
+  "f55cd4e2-ef79-4498-a654-fb0945f92e34": {
+    "url": "db://assets/scripts/logic/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "c39ad970-2c0a-47bc-b38c-5c91e241165e": {
+    "url": "db://assets/scripts/logic/battleModelCore.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "556082d2-4f1b-4f43-94ae-10771ce26ba8": {
+    "url": "db://assets/scripts/logic/damage.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "81a3039b-b2c5-40b4-9c7c-1a571cbac2a9": {
+    "url": "db://assets/scripts/logic/core/endless.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "acc9a286-f1f2-453d-982d-870f0c8e9cd7": {
+    "url": "db://assets/scripts/logic/core/upgrade.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "1dbb79f3-ecf9-48af-b566-6b395c340661": {
+    "url": "db://assets/scripts/logic/battleModelCore.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "de55c3be-3767-42b3-979d-546cbe409485": {
+    "url": "db://assets/scripts/logic/damage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7c1bfb09-f140-4b41-9965-e5e84c0232f1": {
+    "url": "db://assets/scripts/logic/core/endless.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "92c4476e-22be-4f5c-9c6e-f0aa73151645": {
+    "url": "db://assets/scripts/logic/core/upgrade.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1": {
+    "url": "db://assets/scripts/logic/core/softGrowth.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

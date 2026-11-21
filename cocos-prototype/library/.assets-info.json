@@ -1,0 +1,189 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "resources": {
+      "time": 1795072870557.98,
+      "uuid": "65794316-8f3a-42a7-9150-0ac472c5ee3d"
+    },
+    "scripts": {
+      "time": 1795137600778.729,
+      "uuid": "8ce40fcb-fc8c-498a-aa66-87cad2f31503"
+    },
+    "scripts\\core": {
+      "time": 1795229980503.497,
+      "uuid": "2a6c1587-385b-4b6a-827d-0aef9ee82a6e"
+    },
+    "scripts\\game": {
+      "time": 1795072861774.1997,
+      "uuid": "41ba7924-9985-48c5-9b92-6d95aabf5f25"
+    },
+    "scripts\\GameRoot.ts": {
+      "time": 1795230918331.54,
+      "uuid": "5917c9a9-1215-4a8d-b662-b1f92fac4207"
+    },
+    "scripts\\core\\CardDraw.ts": {
+      "time": 1795071947191.6477,
+      "uuid": "fac3426e-dae5-4102-b303-ba5a3c1e8a93"
+    },
+    "scripts\\core\\Damage.ts": {
+      "time": 1795071944427.2588,
+      "uuid": "2bc93b40-cc65-42cb-8762-082f59396fc9"
+    },
+    "scripts\\core\\Pool.ts": {
+      "time": 1795071941349.556,
+      "uuid": "1c0b1d98-fa70-4126-bfd5-45caef9efd0a"
+    },
+    "scripts\\core\\Rng.ts": {
+      "time": 1795071940461.7322,
+      "uuid": "8638ab97-c7cf-4a6f-af7a-20840d1a8506"
+    },
+    "scripts\\game\\BattleModel.ts": {
+      "time": 1795232779821.5105,
+      "uuid": "c8eb1249-08ac-4c5a-82bd-a6fe806eaae4"
+    },
+    "scripts\\game\\Coords.ts": {
+      "time": 1795230918001.352,
+      "uuid": "c470c744-bdc7-4723-9264-0cab866e863e"
+    },
+    "scripts\\game\\Modifiers.ts": {
+      "time": 1795072358221.566,
+      "uuid": "7b27a36a-13d4-4d4c-b43f-0d7a4f5282a5"
+    },
+    "scripts\\game\\Renderer.ts": {
+      "time": 1795232131416.4587,
+      "uuid": "dc86efbf-7774-4d78-9030-e66fabc22324"
+    },
+    "scripts\\game\\Types.ts": {
+      "time": 1795137145256.3086,
+      "uuid": "f51ce31f-3646-4832-8fab-2af04f092367"
+    },
+    "resources.meta": {
+      "time": 1795072861781.2551
+    },
+    "scripts.meta": {
+      "time": 1795072861782.7717
+    },
+    "scripts\\core.meta": {
+      "time": 1795072861783.784
+    },
+    "scripts\\game.meta": {
+      "time": 1795072861784.7822
+    },
+    "scripts\\GameRoot.ts.meta": {
+      "time": 1795072861790.8152
+    },
+    "scripts\\core\\BossTimeline.ts.meta": {
+      "time": 1795072861794.3325
+    },
+    "scripts\\core\\CardDraw.ts.meta": {
+      "time": 1795072861797.9265
+    },
+    "scripts\\core\\Damage.ts.meta": {
+      "time": 1795072861798.9365
+    },
+    "scripts\\core\\Pool.ts.meta": {
+      "time": 1795072861800.9346
+    },
+    "scripts\\core\\Rng.ts.meta": {
+      "time": 1795072861807.4968
+    },
+    "scripts\\game\\BattleModel.ts.meta": {
+      "time": 1795072861811.1975
+    },
+    "scripts\\game\\Coords.ts.meta": {
+      "time": 1795072861813.2007
+    },
+    "scripts\\game\\Modifiers.ts.meta": {
+      "time": 1795072861814.7202
+    },
+    "scripts\\game\\Renderer.ts.meta": {
+      "time": 1795072861816.2312
+    },
+    "scripts\\game\\Types.ts.meta": {
+      "time": 1795072861817.7566
+    },
+    "resources\\config.json": {
+      "time": 1795232781423.984,
+      "uuid": "a21c2a1b-9eb3-4309-8cd3-853a9c60fe8b"
+    },
+    "resources\\config.json.meta": {
+      "time": 1795072870589.2102
+    },
+    "scenes.meta": {
+      "time": 1795073413659.3555
+    },
+    "scenes": {
+      "time": 1795073413004.8992,
+      "uuid": "b7c41f6a-2d58-4c19-8e73-0a95d2f6b8c1"
+    },
+    "scenes\\main.scene.meta": {
+      "time": 1795073413014.9812
+    },
+    "scenes\\main.scene": {
+      "time": 1795073522194.4915,
+      "uuid": "a3f5d0c2-7b41-4e98-9d62-1c5b8e04f7a6"
+    },
+    "scripts\\logic": {
+      "time": 1795137757159.7893,
+      "uuid": "f6462b41-0b5b-4661-9a8e-0f38f94fc46a"
+    },
+    "scripts\\logic\\core": {
+      "time": 1795229374081.6843,
+      "uuid": "f55cd4e2-ef79-4498-a654-fb0945f92e34"
+    },
+    "scripts\\logic.meta": {
+      "time": 1795137600879.2456
+    },
+    "scripts\\logic\\core.meta": {
+      "time": 1795137600883.17
+    },
+    "scripts\\logic\\battleModelCore.js.meta": {
+      "time": 1795137606434.7485
+    },
+    "scripts\\logic\\damage.js.meta": {
+      "time": 1795137606435.7578
+    },
+    "scripts\\logic\\core\\endless.js.meta": {
+      "time": 1795137606436.9436
+    },
+    "scripts\\logic\\core\\upgrade.js.meta": {
+      "time": 1795137606440.9739
+    },
+    "scripts\\logic\\battleModelCore.ts": {
+      "time": 1795232781322.8606,
+      "uuid": "1dbb79f3-ecf9-48af-b566-6b395c340661"
+    },
+    "scripts\\logic\\damage.ts": {
+      "time": 1795232781320.8303,
+      "uuid": "de55c3be-3767-42b3-979d-546cbe409485"
+    },
+    "scripts\\logic\\core\\endless.ts": {
+      "time": 1795232781315.559,
+      "uuid": "7c1bfb09-f140-4b41-9965-e5e84c0232f1"
+    },
+    "scripts\\logic\\core\\upgrade.ts": {
+      "time": 1795232781317.0874,
+      "uuid": "92c4476e-22be-4f5c-9c6e-f0aa73151645"
+    },
+    "scripts\\logic\\battleModelCore.ts.meta": {
+      "time": 1795137757190.7126
+    },
+    "scripts\\logic\\damage.ts.meta": {
+      "time": 1795137757194.2754
+    },
+    "scripts\\logic\\core\\endless.ts.meta": {
+      "time": 1795137757199.3
+    },
+    "scripts\\logic\\core\\upgrade.ts.meta": {
+      "time": 1795137757200.8281
+    },
+    "scripts\\logic\\core\\softGrowth.ts": {
+      "time": 1795232781319.0815,
+      "uuid": "ba6e96e4-1c63-4539-ae6a-ec5451b6e9c1"
+    },
+    "scripts\\logic\\core\\softGrowth.ts.meta": {
+      "time": 1795229374109.06
+    }
+  },
+  "missing": {}
+}

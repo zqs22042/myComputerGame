@@ -1,0 +1,14 @@
+param_name,default_value,unit,description
+hitstop_normal,0.02,s,普通命中停顿
+hitstop_crit,0.05,s,暴击停顿
+hitstop_kill,0.06,s,击杀停顿
+shake_crit,2,px,暴击震动幅度
+shake_elite_kill,4,px,精英击杀震动
+shake_boss_hit_core,8,px,Boss撞核心震动
+flash_white_duration,0.06,s,受击闪白时长
+knockback_normal,8,px,普通怪击退像素
+clear_light_threshold,8,count,轻清屏击杀阈值
+clear_mid_threshold,15,count,中清屏击杀阈值
+clear_heavy_threshold,30,count,重清屏击杀阈值
+particle_cap_normal,300,count,普通粒子上限
+particle_cap_clear,600,count,清屏粒子上限

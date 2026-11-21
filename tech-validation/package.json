@@ -1,0 +1,11 @@
+{
+  "name": "tech-validation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "孤军守卫 · 开写前技术验证（CSV 加载 / 伤害结算 / 升级三选一 / Boss 时序 / 无尽循环）",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node run.js"
+  }
+}

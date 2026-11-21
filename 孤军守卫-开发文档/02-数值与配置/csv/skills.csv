@@ -1,0 +1,3 @@
+skill_id,name,type,base_coeff,cooldown,unlock_level,effect_desc
+SK01,震荡波,active,1.8,10,1,以角色为中心环形冲击击退并造成180%攻击力范围伤害
+SK02,弹幕风暴,ultimate,0,40,3,3秒内攻速×3且子弹无限穿透

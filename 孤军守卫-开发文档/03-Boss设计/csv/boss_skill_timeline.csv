@@ -1,0 +1,3 @@
+skill_id,name,cast_time,active_time,cooldown,damage_coeff,effect_desc
+BS01_charge,直线冲撞,1.2,0.6,3,0.15,前摇后冲锋；驻留期间不抵达核心，核心伤害为 0，P3 间隔降为 2s
+BS02_bonespike,投掷骨刺,0.8,0.3,2,0,在路径上生成减速障碍可被射击摧毁

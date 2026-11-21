@@ -1,0 +1,31 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "resources",
+            "scenes",
+            "scripts",
+            "scripts\\core",
+            "scripts\\game",
+            "scripts\\logic",
+            "scripts\\logic\\core",
+            "scripts\\GameRoot.ts",
+            "scripts\\core\\CardDraw.ts",
+            "scripts\\core\\Damage.ts",
+            "scripts\\core\\Pool.ts",
+            "scripts\\core\\Rng.ts",
+            "scripts\\game\\BattleModel.ts",
+            "scripts\\game\\Coords.ts",
+            "scripts\\game\\Modifiers.ts",
+            "scripts\\game\\Renderer.ts",
+            "scripts\\game\\Types.ts",
+            "scripts\\logic\\battleModelCore.ts",
+            "scripts\\logic\\damage.ts",
+            "scripts\\logic\\core\\endless.ts",
+            "scripts\\logic\\core\\softGrowth.ts",
+            "scripts\\logic\\core\\upgrade.ts",
+            "resources\\config.json",
+            "scenes\\main.scene"
+        ]
+    }
+}

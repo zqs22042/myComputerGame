@@ -1,0 +1,16 @@
+param_name,default_value,unit,description
+hp_step_waves,5,wave,血量台阶宽度：每N波提升一档
+hp_step_growth,0.35,per_step,血量每档乘数增量：HP×(1+该值)^档位（0.35=每档×1.35）
+boss_wave_step_extra,1,step,Boss波在普通档位基础上额外跳档数
+wave_interval,2.0,sec,波次间隔秒数
+elite_every_waves,5,wave,每N波一次精英波
+boss_every_waves,10,wave,每N波一次Boss
+gold_growth_rate,0.003,per_sec,金币随时间的增长系数（保留字段）
+base_spawn_count,6,count,第1波怪物数量
+spawn_count_growth,1.10,per_wave,每波怪物数量增长系数
+boss_damage_cycle_bonus,0.10,per_cycle,Boss每循环额外伤害加成
+soft_growth_reserve,1000,gold,满级后保留用于正常购物的金币
+soft_dmg_per_gold,0.0006,per_gold,溢出金币转伤害的初始每金币加成
+soft_dmg_cap,3.0,ratio,软成长伤害加成上限（3.0=+300%）
+soft_aspd_per_gold,0.0003,per_gold,溢出金币转射速的初始每金币加成
+soft_aspd_cap,0.6,ratio,软成长射速加成上限（0.6=+60%）

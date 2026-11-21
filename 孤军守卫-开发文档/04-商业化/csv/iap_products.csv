@@ -1,0 +1,5 @@
+product_id,name,type,price_cny,reward_desc,note
+IAP01,去除广告,one_time,12,永久去除激励视频以外的广告展示,不影响主动广告奖励
+IAP02,月卡,subscription,30,每日领取100金币+免广告特权,30天有效
+IAP03,皮肤-烈焰弹道,cosmetic,6,子弹弹道变为火焰特效,纯外观
+IAP04,皮肤-冰霜核心,cosmetic,8,核心受击特效变为冰霜碎裂,纯外观

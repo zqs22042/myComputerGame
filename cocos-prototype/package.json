@@ -1,0 +1,13 @@
+{
+  "name": "dusk-sentry-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "config": "node tools/build-config.mjs",
+    "sync:logic": "node tools/sync-logic.mjs"
+  },
+  "uuid": "010b8a72-f0cc-4f29-8056-84fe3c4eeabb"
+}
